@@ -1,0 +1,18 @@
+Sorgu Açıklaması
+
+JOIN İşlemi:
+Dept d ile Emp e tablolarını d.Id = e.DeptId koşuluyla birleştiriyoruz.
+LEFT JOIN kullanıyoruz, böylece çalışanı olmayan departmanlar da listede kalıyor.
+
+
+COUNT Kullanımı:
+COUNT(e.Id) ile her departmandaki çalışan sayısını hesaplıyoruz.
+COUNT(*) yerine COUNT(e.Id) kullanıyoruz, çünkü LEFT JOIN durumunda NULL gelen satırlar sayılmamalıdır.
+
+
+GROUP BY Kullanımı:
+Departman bazında gruplama yaparak her bir departmanın çalışan sayısını hesaplıyoruz.
+
+
+ORDER BY Kullanımı:
+Çıktıyı çalışan sayısına göre azalan sırada (DESC) sıralıyoruz.

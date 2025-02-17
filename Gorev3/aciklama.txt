@@ -1,0 +1,6 @@
+"Make help" bütün komutları görebilirsiniz.
+
+
+Postman dokümanı için workspace aşağıdaki linkte mevcuttur.
+
+https://universal-trinity-557216.postman.co/workspace/New-Team-Workspace~54d54272-f8ce-47b1-a85b-cc88456d10ea/collection/30885409-a8ad6f52-cae9-4697-b801-69d82c1f440f?action=share&creator=30885409

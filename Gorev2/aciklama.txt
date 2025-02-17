@@ -1,0 +1,23 @@
+# GÖREV 2 - Fibonacci Dizisi ve Asal Sayılar
+
+Bu program, 500.000’den küçük en büyük asal sayıyı ve 500.000’den büyük en küçük asal sayıyı
+bulup arasındaki farkı hesaplamak için Sieve of Eratosthenes (Eratosthenes Eleği) algoritmasını kullanıldı.
+
+## Kullanılan Algoritma:
+- Sieve of Eratosthenes:  
+  Bu algoritma, asal sayıların hızlıca belirlenmesini sağlayan klasik bir algoritmadır.  
+  Öncelikle belirlenen LIMIT değeri kadar bir boolean dizi (isPrime[]) oluşturulur ve  
+  tüm asal olmayan sayılar bu dizide false olarak işaretlenir.  
+  Daha sonra, 500.000’den küçük ve büyük en yakın asal sayılar bulunur.
+
+## Programın Çalıştırılması:
+Bu program, Unix veya benzeri bir işletim sisteminde çalıştırılmak üzere  
+Makefile ve Docker kullanılarak otomatikleştirilmiştir.  
+
+Programı çalıştırmak için aşağıdaki adımları takip edin:
+
+Docker image'ını oluşturun(Komutlar):  
+
+make
+
+make run
